@@ -1,0 +1,93 @@
+<!-- 
+Srivamsi Priyanka Chaganti 
+G01339921
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <title>Student Survey Form</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="bg-img"></div>
+  <div class="bg-text">
+  <main>
+    <form id="survey-form">
+   
+      <section id="survey-fields">
+       
+        <h1>Student Survey Form</h1>
+        <label for="fname" id="fname">First Name:</label>
+        <input id="fname" type="text" placeholder="Enter your first name" required><br>
+        <label for="lname" id="lname">Last Name:</label>
+        <input id="fname" type="text" placeholder="enter your last name" required><br>
+        <label for="street" id="street">Street Address:</label>
+        <input id="street" type="text" placeholder="enter your street address" required><br>
+        <label for="city" id="city">City:</label>
+        <input id="city" type="text" placeholder="enter city" required><br>
+        <label for="state" id="state">State:</label>
+        <input id="state" type="text" placeholder="enter state" required><br>
+        <label for="zip" id="zip">Zip code:</label>
+        <input id="zip" type="number" placeholder="enter zip code" required><br>
+        <label for="Email" id="email">Email:</label>
+        <input id="Email" type="email" placeholder="enter your email" required><br>
+        <label for="Date" id="date">Date of Survey:</label>
+        <input id="date" type="date" required><br><br>
+        
+      
+    	What do you like the most about the campus?
+      	<input type="checkbox" id="students" name="students">
+      	<label for="students">Students</label>
+      	<input type="checkbox" id="locations" name="locations">
+      	<label for="locations">Locations</label>
+      	<input type="checkbox" id="campus" name="campus">
+      	<label for="campus">Campus</label>
+      	<input type="checkbox" id="atmosphere" name="atmosphere">
+      	<label for="atmosphere">Atmosphere</label>
+      	<input type="checkbox" id="dorms" name="dorms">
+      	<label for="dorms">Dorm Rooms</label>
+      	<input type="checkbox" id="sports" name="sports">
+      	<label for="sports">Sports</label><br><br>
+	
+      	How did you become interested in this university?
+        <input type="radio" id="friends" name="interest" value="friends">
+		<label for="friends">Friends</label>
+		<input type="radio" id="television" name="interest" value="television">
+		<label for="television">Television</label>
+		<input type="radio" id="internet" name="interest" value="internet">
+		<label for="internet">Internet</label>
+		<input type="radio" id="other" name="interest" value="other">
+		<label for="other">Other</label><br><br>
+        </select>
+      	
+      	
+      	<label for="recommend">How likely are you to recommend this university:</label>
+		<select name="recommend" id="recommend">
+  		<option value="v_likely">Very Likely</option>
+  		<option value="likely">Likely</option>
+  		<option value="n_likely">Not Likely</option>
+		</select><br><br>
+		
+
+         <label> Please enter at least 10 comma separated numbers ranging from 1 through 100 to participate in Raffle</label>
+         <input type="text" name="number" placeholder="numbers from 1-100"><br><br>
+  
+        
+        <label for="comments">Any Comments or Suggestions?</label>
+        <input type="text" name="comments" placeholder="enter comments"><br><br>
+     
+      
+
+    
+      <button id="submit">submit</button>
+       
+      <button id="cancel">cancel</button>
+      </section><br>
+    </form>
+  </main>
+ 
+</div>
+</body>
+</html>
